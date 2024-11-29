@@ -1,11 +1,10 @@
-# PHP Banner V1
+# Termux lite
 
 This is a simple script that creates a dynamic banner in PHP to display on your Termux terminal. The banner can be customized with different colors, text, and ASCII art.
 
 ## Table of Contents
 - Requirements
 - Installation
-- Usage
 - Customization
 - Contributing
 
@@ -14,26 +13,18 @@ This is a simple script that creates a dynamic banner in PHP to display on your 
 - Internet connection
 
 ## Installation
-1. Install PHP by running the following command:
 ```
 pkg install php
 ```
-  
-2. Clone or download this repository to your local machine.
 ```
-git clone --depth=1 https://github.com/thedeveloper03/BANNER-PHP.git
+git clone --depth=1 https://github.com/pixelPusher03/Termux-lite.git
 ```
-3. Open Termux and navigate to the directory where you transferred the termux-php-banner.php file.
 ```
-cd BANNER-PHP
-``` 
-5. Grant permission to run PHP script by executing:
+cd Termux-lite
+```
 ```
 chmod +x php-Adv.php
 ```
-   
-## Usage
-To run the PHP banner, simply execute the following command in your Termux terminal:
 ```
 php Adv.php
 ```
@@ -55,8 +46,3 @@ Save the changes and follow the Installation and Usage steps to see your customi
 ## Contributing
 Contributions are welcome! If you would like to enhance the features, fix any bugs, or add improvements to this project, please feel free to fork this repository and submit a pull request.
 
-  <sub>Copyright © 2023 - <a href="https://github.com/thedeveloper03">The Developer</sub></a> 
-     </div> 
-     <br/> 
-     💖 
- </div>
