@@ -179,7 +179,7 @@
                  } 
          else { 
                  print("\n\033[93m\033[40mNotice..!\033[49m\n\n\033[40mIf you want to put a custom banner, you need to put a banner in a text file and save it.\033[49m"); 
-                 print("\n\n\033[93m\033[40mNow type \033[31mnano dvsbanner\033[93m to make text file and run again this tool using \033[31mphp Adv-Banner.php\033[49m\n\n"); 
+                 print("\n\n\033[93m\033[40mNow type \033[31mnano dvsbanner\033[93m to make text file and run again this tool using \033[31mphp Adv.php\033[49m\n\n"); 
                  } 
          } 
  elseif ( $bcho == 4 ){ 
@@ -194,7 +194,7 @@
                  } 
          else { 
                  print("\n\033[93m\033[40mNotice..!\033[49m\n\n\033[40mIf you want to put a custom banner, you need to put a banner in a text file and save it.\033[49m"); 
-                 print("\n\n\033[93m\033[40mNow type \033[31mnano dvsbanner\033[93m to make text file and run again this tool using \033[31mphp Adv-Banner.php\033[49m\n\n"); 
+                 print("\n\n\033[93m\033[40mNow type \033[31mnano dvsbanner\033[93m to make text file and run again this tool using \033[31mphp Adv.php\033[49m\n\n"); 
                  } 
          } 
  elseif ( $bcho == 5 ){ 
@@ -212,7 +212,7 @@
                  } 
          else { 
                  print("\n\033[93m\033[40mNotice..!\033[49m\n\n\033[40mIf you want to put a neofetch banner, you need to put a banner in a text file and save it.\033[49m"); 
-                 print("\n\n\033[93m\033[40mNow type \033[31mnano dvsbanner\033[93m to make text file and run again this tool using \033[31mphp Adv-Banner.php\033[49m\n\n"); 
+                 print("\n\n\033[93m\033[40mNow type \033[31mnano dvsbanner\033[93m to make text file and run again this tool using \033[31mphp Adv.php\033[49m\n\n"); 
                  } 
          } 
  elseif ( $bcho == 6 ){ 
@@ -230,22 +230,22 @@
                  } 
          else { 
                  print("\n\033[93m\033[40mNotice..!\033[49m\n\n\033[40mIf you want to put a custom banner, you need to put a banner in a text file and save it.\033[49m"); 
-                 print("\n\n\033[93m\033[40mNow type \033[31mnano dvsbanner\033[93m to make text file and run again this tool using \033[31mphp Adv-Banner.php\033[49m\n\n"); 
+                 print("\n\n\033[93m\033[40mNow type \033[31mnano dvsbanner\033[93m to make text file and run again this tool using \033[31mphp Adv.php\033[49m\n\n"); 
                  } 
          } 
  elseif ( $bcho == 7 ){ 
          oldremove(); 
          if (( ! file_exists("dvsbanner")) and (!file_exists("banner"))){ 
                  print("\n\033[93m\033[40mNotice..!\033[49m\n\n\033[40mIf you want to put a neofetch custom banner, you need to put a banner and logo in a two text files and save it.\033[49m"); 
-                 print("\n\n\033[93m\033[40mNow \ntype \033[31mnano dvsbanner\033[93m to make banner text file and \ntype \033[31mnano banner\033[93m to make logo text file and run again this tool \nusing \033[31mphp Adv-Banner.php\033[49m\n\n"); 
+                 print("\n\n\033[93m\033[40mNow \ntype \033[31mnano dvsbanner\033[93m to make banner text file and \ntype \033[31mnano banner\033[93m to make logo text file and run again this tool \nusing \033[31mphp Adv.php\033[49m\n\n"); 
                  } 
          elseif ( ! file_exists("dvsbanner")) { 
                  print("\n\033[93m\033[40mNotice..!\033[49m\n\n\033[40mIf you want to put a neofetch custom banner, you need to put a banner in a text file and save it.\033[49m"); 
-                 print("\n\n\033[93m\033[40mNow type \033[31mnano dvsbanner\033[93m to make text file and run again this tool using \033[31mphp Adv-Banner.php\033[49m\n\n"); 
+                 print("\n\n\033[93m\033[40mNow type \033[31mnano dvsbanner\033[93m to make text file and run again this tool using \033[31mphp Adv.php\033[49m\n\n"); 
                  } 
          elseif ( ! file_exists("banner")) { 
                  print("\n\033[93m\033[40mNotice..!\033[49m\n\n\033[40mIf you want to put a neofetch custom banner, you need to put a logo in a text file and save it.\033[49m"); 
-                 print("\n\n\033[93m\033[40mNow type \033[31mnano banner\033[93m to make text file and run again this tool using \033[31mphp Adv-Banner.php\033[49m\n\n"); 
+                 print("\n\n\033[93m\033[40mNow type \033[31mnano banner\033[93m to make text file and run again this tool using \033[31mphp Adv.php\033[49m\n\n"); 
                  } 
          if (file_exists("dvsbanner") and  file_exists("banner")){ 
                  $f = fopen( "zshrc", "w"); 
@@ -264,15 +264,15 @@
          oldremove(); 
          if (( ! file_exists("dvsbanner")) and (! file_exists("banner"))){ 
                  print("\n\033[93m\033[40mNotice..!\033[49m\n\n\033[40mIf you want to put a neofetch custom banner, you need to put a banner and logo in a two text files and save it.\033[49m"); 
-                 print("\n\n\033[93m\033[40mNow \ntype \033[31mnano dvsbanner\033[93m to make banner text file and \ntype \033[31mnano banner\033[93m to make logo text file and run again this tool \nusing \033[31mphp Adv-Banner.php\033[49m\n\n"); 
+                 print("\n\n\033[93m\033[40mNow \ntype \033[31mnano dvsbanner\033[93m to make banner text file and \ntype \033[31mnano banner\033[93m to make logo text file and run again this tool \nusing \033[31mphp Adv.php\033[49m\n\n"); 
                  } 
          elseif ( ! file_exists("dvsbanner")) { 
                  print("\n\033[93m\033[40mNotice..!\033[49m\n\n\033[40mIf you want to put a neofetch custom banner, you need to put a banner in a text file and save it.\033[49m"); 
-                 print("\n\n\033[93m\033[40mNow type \033[31mnano dvsbanner\033[93m to make text file and run again this tool using \033[31mphp Adv-Banner.php\033[49m\n\n"); 
+                 print("\n\n\033[93m\033[40mNow type \033[31mnano dvsbanner\033[93m to make text file and run again this tool using \033[31mphp Adv.php\033[49m\n\n"); 
                  } 
          elseif ( ! file_exists("banner")) { 
                  print("\n\033[93m\033[40mNotice..!\033[49m\n\n\033[40mIf you want to put a neofetch custom banner, you need to put a logo in a text file and save it.\033[49m"); 
-                 print("\n\n\033[93m\033[40mNow type \033[31mnano banner\033[93m to make text file and run again this tool using \033[31mphp Adv-Banner.php\033[49m\n\n"); 
+                 print("\n\n\033[93m\033[40mNow type \033[31mnano banner\033[93m to make text file and run again this tool using \033[31mphp Adv.php\033[49m\n\n"); 
                  } 
          if ((file_exists("dvsbanner")) and (file_exists("banner"))){ 
                  $f = fopen( "zshrc", "w"); 
@@ -289,7 +289,7 @@
          } 
   
  elseif ( $bcho == 9 ){ 
-         system("xdg-open https://github.com/thedeveloper03/BANNER-PHP"); 
+         system("xdg-open https://github.com/pixelPusher03/BANNER-PHP"); 
          sleep(5); 
          logo(); 
          bannermenu(); 
@@ -312,7 +312,7 @@
          $link = array("https://t.me/the_developer01", 
                        "https://github.com/thedeveloper03", 
                        "https://github.com/thedeveloper03", 
-                       "https://youtube.com/the_developer03" ); 
+                       "https://youtube.com/@the_developer03" ); 
          shuffle($link); 
          system("xdg-open ".$link[0]); 
          logo(); 
@@ -322,7 +322,7 @@
  elseif ( $a == 2 ){ 
          system("git pull"); 
          sleep(1); 
-         system("php Adv-Banner.php"); 
+         system("php Adv.php"); 
          } 
   
  elseif ( $a == 3 ){ 
@@ -385,7 +385,7 @@
  elseif ( $a == 5 ){ 
          system("xdg-open https://t.me/the_developer01"); 
          sleep(5); 
-         system("php Adv-Banner.php"); 
+         system("php Adv.php"); 
          } 
   
  elseif ( $a == 6 ){ 
